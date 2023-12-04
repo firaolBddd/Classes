@@ -1,17 +1,20 @@
-#include "dmedia.h"
+// Header guards
+#ifndef MEDIAH
+#define MEDIAH
 
-dmedia::dmedia() {
-}
+#include <iostream>
+#include <cstring>
 
-char* dmedia::getTitle() {
-    return title;
-}
+class dmedia {
+public:
+    dmedia();
+    char* getTitle();
+    int* getYear();
+    virtual int getType();
 
-int* dmedia::getYear() {
-    return &year;
-}
+private:
+    char title[30];
+    int year;
+};
 
-int dmedia::getType() {
-    return 0;
-}
-
+#endif
