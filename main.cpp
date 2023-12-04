@@ -1,6 +1,12 @@
 //Firaol Berehanu classes code
 // 11/27/23
+//c++ code for classes
+//project description - 
 //sotre media filles and allow for varies funcitons
+// such as ADD to add movies with title and other feature
+// delete moives and other media 
+// search the datbase for diffrent files 
+// quit the porgrams
 //Got help form my unlce 
 #include <iostream>
 #include <vector>
