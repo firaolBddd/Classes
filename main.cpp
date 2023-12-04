@@ -1,4 +1,5 @@
 //Firaol Berehanu classes code
+//got help from kevin 
 //sotre media filles and allow for varies funcitons
 //Got help form my unlce 
 #include <iostream>
